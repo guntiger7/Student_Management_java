@@ -39,6 +39,7 @@ public class Main {
 				scan.nextLine();
 			}
 
+			scan.nextLine();
 			switch (select) {
 			case 0:
 				System.out.println("숫자를 입력해주세요");
@@ -46,7 +47,7 @@ public class Main {
 			case 1:
 				System.out.println("=== 학생 등록 ===");
 				System.out.println("학번, 이름, 주소 순으로 입력");
-				procedure.insertStudent(scan.nextInt(), scan.next(), scan.next());
+				procedure.insertStudent(scan.nextInt(), scan.next(), scan.nextLine());
 				break;
 			case 2:
 				System.out.println("=== 학생 조회 ===");
@@ -60,7 +61,7 @@ public class Main {
 
 			case 4:
 				System.out.println("=== 수정 할 학생 [학번, 이름, 학과] 순으로 입력 입력 ===");
-				procedure.updateStudent(scan.nextInt(), scan.next(), scan.next());
+				procedure.updateStudent(scan.nextInt(), scan.next(), scan.nextLine());
 				break;
 
 			case 5:

@@ -10,8 +10,8 @@ public class DB_Connection {
     {
         Connection conn = null;
         try {
-            String user = "ai"; 
-            String pw = "1234";
+            String user = DB_Config.ID; 
+            String pw = DB_Config.PASSWORD;
 //            String url = "jdbc:oracle:thin:@localhost:1521:xe";
             String url = "jdbc:oracle:thin:@localhost:1521";
             
@@ -30,5 +30,4 @@ public class DB_Connection {
         }
         return conn;     
     }
-
 }
