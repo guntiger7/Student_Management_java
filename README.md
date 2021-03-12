@@ -24,8 +24,9 @@ END gt_selectall_java_student;
 ```
 ![select Procedure](img/selectProcedure.png)
 
-#TODO: ### **java의 nextInt()에서 문자열 입력시 강제 종료되는 버그 수정**
 
+
+### **TODO** java의 nextInt()에서 문자열 입력시 강제 종료되는 버그 수정
 
 - [x] 영어
-- [ ] 한글
+- [ ] 한글  
